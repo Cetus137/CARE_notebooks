@@ -1,0 +1,38 @@
+# CARE Notebooks - Requirements
+# Python 3.7+ required
+
+# Core scientific computing
+numpy>=1.19.0
+scipy>=1.5.0
+matplotlib>=3.3.0
+
+# Image processing
+tifffile>=2021.0.0
+scikit-image>=0.18.0
+
+# Medical/scientific image formats
+SimpleITK>=2.1.0
+aicsimageio>=4.0.0
+aicspylibczi>=3.0.0
+
+# Parallel computing
+dask[array]>=2021.0.0
+
+# Deep learning - TensorFlow
+tensorflow>=2.8.0,<2.16.0
+# For GPU support, install: tensorflow[and-cuda]
+# Or use: pip install tensorflow[and-cuda]
+
+# CARE/CSBDeep framework
+csbdeep>=0.7.0
+
+# Jupyter support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+
+# Optional: TensorBoard for training visualization
+tensorboard>=2.8.0
+
+# Optional: Better progress bars
+tqdm>=4.60.0
